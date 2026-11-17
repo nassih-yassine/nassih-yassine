@@ -27,32 +27,31 @@ I turn flaky releases into boring ones — with the suites, the frameworks, and 
 | **🧠 Agents with guardrails** | Multi-agent workflows, custom rules and memory banks, MCP servers that let agents act on databases, Jira and browsers. |
 | **🛠️ Tooling that deletes work** | Python, Go and shell utilities that remove the manual, repeatable parts of QA and DevOps. |
 
-### Skills
+### Languages
 
-<table>
-<tr>
-<td width="50%">
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-**Languages**
+### Frameworks & tools
 
-`Java` ██████████ 90%
-`Python` ████████░░ 80%
-`TypeScript` ███████░░░ 70%
-`Go` ██████░░░░ 60%
-
-</td>
-<td width="50%">
-
-**Test & delivery**
-
-`Playwright` █████████░ 90%
-`Selenium` █████████░ 90%
-`CI/CD` ████████░░ 80%
-`SQL / Oracle` ████████░░ 80%
-
-</td>
-</tr>
-</table>
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ### Featured
 
@@ -65,24 +64,6 @@ I turn flaky releases into boring ones — with the suites, the frameworks, and 
 </td>
 </tr>
 </table>
-
-### Metrics
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=nassih-yassine&show_icons=true&hide_border=true&theme=transparent&title_color=8FC9C6&icon_color=E3BE86&text_color=9FB8B6&count_private=true" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nassih-yassine&layout=compact&hide_border=true&theme=transparent&title_color=8FC9C6&text_color=9FB8B6&langs_count=6" alt="Top languages" />
-<img height="160" src="https://streak-stats.demolab.com/?user=nassih-yassine&hide_border=true&theme=transparent&ring=8FC9C6&fire=E3BE86&currStreakLabel=8FC9C6" alt="Streak" />
-
-<br /><br />
-
-<img src="https://github-profile-trophy.vercel.app/?username=nassih-yassine&theme=onedark&column=7&no-frame=true&no-bg=true" alt="Trophies" />
-
-<br /><br />
-
-<img src="https://komarev.com/ghpvc/?username=nassih-yassine&style=flat-square&color=0F3D3E&label=views" alt="Profile views" />
-
-</div>
 
 ---
 
