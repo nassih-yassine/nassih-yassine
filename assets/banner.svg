@@ -1,43 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Yassine Nassih — Software Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Yassine Nassih — Software Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1517"/>
-      <stop offset="55%" stop-color="#0F2A2C"/>
-      <stop offset="100%" stop-color="#0B1517"/>
+      <stop offset="0%" stop-color="#071012"/>
+      <stop offset="48%" stop-color="#0C2426"/>
+      <stop offset="100%" stop-color="#0A1618"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <radialGradient id="glow" cx="0.78" cy="0.18" r="0.7">
+      <stop offset="0%" stop-color="#8FC9C6" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#8FC9C6" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#8FC9C6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E7EFEE"/>
+      <stop offset="55%" stop-color="#9FD0CC"/>
+      <stop offset="100%" stop-color="#E3BE86"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8FC9C6" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#8FC9C6" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#8FC9C6" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#E3BE86" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="stars" width="120" height="120" patternUnits="userSpaceOnUse">
-      <g fill="none" stroke="#8FC9C6" stroke-opacity="0.07" stroke-width="1">
-        <path d="M60 8 L72 44 L108 44 L79 66 L90 102 L60 80 L30 102 L41 66 L12 44 L48 44 Z"/>
-        <circle cx="60" cy="60" r="2" fill="#E3BE86" fill-opacity="0.12" stroke="none"/>
-      </g>
-    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#stars)"/>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#glow)"/>
 
-  <rect x="0" y="0" width="1200" height="3" fill="url(#line)"/>
+  <!-- faint grid -->
+  <g stroke="#8FC9C6" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200"/>
+    <path d="M120 0 V360 M240 0 V360 M360 0 V360 M480 0 V360 M600 0 V360 M720 0 V360 M840 0 V360 M960 0 V360 M1080 0 V360"/>
+  </g>
+
+  <!-- constellation -->
+  <g stroke="#8FC9C6" stroke-opacity="0.35" stroke-width="1" filter="url(#soft)">
+    <path d="M880 70 L1010 130 L950 210 L1090 260"/>
+    <path d="M1010 130 L1140 90"/>
+    <path d="M950 210 L1130 300"/>
+    <path d="M880 70 L950 210"/>
+  </g>
+  <g fill="#E3BE86">
+    <circle cx="880" cy="70" r="3.5"/>
+    <circle cx="1010" cy="130" r="4.5"/>
+    <circle cx="950" cy="210" r="3"/>
+    <circle cx="1090" cy="260" r="4"/>
+    <circle cx="1140" cy="90" r="2.5"/>
+    <circle cx="1130" cy="300" r="2.5"/>
+  </g>
+
+  <!-- crescent + orbit -->
+  <g transform="translate(1010,205)" opacity="0.9">
+    <circle r="52" fill="none" stroke="#8FC9C6" stroke-opacity="0.4" stroke-width="1"/>
+    <path d="M20 4 A30 30 0 1 0 20 56 A24 24 0 1 1 20 4 Z" fill="#E3BE86" fill-opacity="0.9"/>
+  </g>
+
+  <!-- corner marks -->
+  <g stroke="#E3BE86" stroke-opacity="0.5" stroke-width="1.5" fill="none">
+    <path d="M50 50 V26 H74"/>
+    <path d="M1150 50 V26 H1126"/>
+    <path d="M50 310 V334 H74"/>
+    <path d="M1150 310 V334 H1126"/>
+  </g>
+
+  <!-- type -->
+  <g font-family="Georgia,'Times New Roman',serif">
+    <text x="76" y="128" fill="#E7EFEE" font-size="60" font-weight="700" letter-spacing="1" fill-opacity="0">YASSINE NASSIH</text>
+    <text x="76" y="128" fill="url(#name)" font-size="60" font-weight="700" letter-spacing="1">YASSINE NASSIH</text>
+  </g>
 
   <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace">
-    <text x="80" y="126" fill="#8FC9C6" font-size="15" letter-spacing="6">SOFTWARE ENGINEER</text>
-    <text x="78" y="196" fill="#E7EFEE" font-size="58" font-weight="700" letter-spacing="1">YASSINE NASSIH</text>
-    <text x="80" y="240" fill="#9FB8B6" font-size="17" letter-spacing="1">test automation · developer tooling · AI-assisted workflows</text>
+    <text x="80" y="172" fill="#8FC9C6" font-size="15" letter-spacing="5">SOFTWARE ENGINEER</text>
+    <text x="80" y="218" fill="#9FB8B6" font-size="17" letter-spacing="0.5">test automation · developer tooling · AI-assisted workflows</text>
+    <text x="80" y="312" fill="#5E7C7B" font-size="13">github.com/nassih-yassine</text>
   </g>
 
-  <g transform="translate(1010,150)" fill="none" stroke="#E3BE86" stroke-opacity="0.55" stroke-width="1.5">
-    <path d="M0 0 L60 0 L60 60 L0 60 Z"/>
-    <path d="M0 0 L60 60 M60 0 L0 60"/>
-    <circle cx="30" cy="30" r="18"/>
-  </g>
-
-  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace">
-    <text x="80" y="290" fill="#5E7C7B" font-size="13">github.com/nassih-yassine</text>
-  </g>
-
-  <rect x="0" y="317" width="1200" height="3" fill="url(#line)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#hairline)"/>
+  <rect x="0" y="357" width="1200" height="3" fill="url(#hairline)"/>
 </svg>

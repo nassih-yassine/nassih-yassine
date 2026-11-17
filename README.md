@@ -2,80 +2,81 @@
 
 <img src="./assets/banner.svg" alt="Yassine Nassih — Software Engineer" width="100%" />
 
-<br />
+**`test automation · developer tooling · AI-assisted workflows`**
 
-**Test automation · developer tooling · AI-assisted workflows**
-
-3 years making releases boring: the suites, the frameworks, and the agent plumbing.
+I turn flaky releases into boring ones — with the suites, the frameworks, and the agent plumbing to prove it.
 
 <br />
 
 <a href="https://github.com/nassih-yassine">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-nassih--yassine-0F3D3E?style=for-the-badge&logo=github&logoColor=8FC9C6" />
+  <img src="https://img.shields.io/badge/GitHub-nassih--yassine-0F3D3E?style=for-the-badge&logo=github&logoColor=8FC9C6" />
 </a>
 <a href="https://www.linkedin.com/in/nassih-yassine/">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-nassih--yassine-0F3D3E?style=for-the-badge&logo=linkedin&logoColor=8FC9C6" />
+  <img src="https://img.shields.io/badge/LinkedIn-nassih--yassine-0F3D3E?style=for-the-badge&logo=linkedin&logoColor=8FC9C6" />
 </a>
 
 </div>
 
 ---
 
+### What I do
+
+| | |
+|---|---|
+| **🤖 Automation that holds** | Playwright & Selenium suites across UI and API, wired into CI so a release is no longer a dice roll. |
+| **🧠 Agents with guardrails** | Multi-agent workflows, custom rules and memory banks, MCP servers that let agents act on databases, Jira and browsers. |
+| **🛠️ Tooling that deletes work** | Python, Go and shell utilities that remove the manual, repeatable parts of QA and DevOps. |
+
+### Skills
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### What I build
+**Languages**
 
-**Automation that holds**
-Playwright and Selenium suites across UI and API, wired into CI.
-
-**Agents with guardrails**
-Multi-agent workflows, custom rules, memory banks, and MCP servers that talk to databases, Jira and browsers.
-
-**Tooling that deletes work**
-Python, Go and shell utilities that remove manual steps from QA and DevOps.
+`Java` ██████████ 90%
+`Python` ████████░░ 80%
+`TypeScript` ███████░░░ 70%
+`Go` ██████░░░░ 60%
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### Stack
+**Test & delivery**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+`Playwright` █████████░ 90%
+`Selenium` █████████░ 90%
+`CI/CD` ████████░░ 80%
+`SQL / Oracle` ████████░░ 80%
 
 </td>
 </tr>
 </table>
-
----
 
 ### Featured
 
 <table>
 <tr>
-<td width="34%"><a href="https://github.com/nassih-yassine/Addan"><b>Addan</b></a></td>
-<td>Offline-first Android prayer app. Local prayer times, one alarm, no telemetry SDKs.</td>
-<td align="right"><code>Kotlin</code> <code>Compose</code></td>
+<td width="8%"><h3>📿</h3></td>
+<td>
+<b><a href="https://github.com/nassih-yassine/Addan">Addan</a></b> — offline-first Android prayer app. Local prayer times, one alarm, no telemetry SDKs.
+<br /><code>Kotlin</code> <code>Jetpack Compose</code> <code>Gradle</code>
+</td>
 </tr>
 </table>
 
----
+### Metrics
 
 <div align="center">
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=nassih-yassine&show_icons=true&hide_border=true&theme=transparent&title_color=8FC9C6&icon_color=E3BE86&text_color=9FB8B6&count_private=true" alt="GitHub stats" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nassih-yassine&layout=compact&hide_border=true&theme=transparent&title_color=8FC9C6&text_color=9FB8B6&langs_count=6" alt="Top languages" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=nassih-yassine&show_icons=true&hide_border=true&theme=transparent&title_color=8FC9C6&icon_color=E3BE86&text_color=9FB8B6&count_private=true" alt="GitHub stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nassih-yassine&layout=compact&hide_border=true&theme=transparent&title_color=8FC9C6&text_color=9FB8B6&langs_count=6" alt="Top languages" />
+<img height="160" src="https://streak-stats.demolab.com/?user=nassih-yassine&hide_border=true&theme=transparent&ring=8FC9C6&fire=E3BE86&currStreakLabel=8FC9C6" alt="Streak" />
+
+<br /><br />
+
+<img src="https://github-profile-trophy.vercel.app/?username=nassih-yassine&theme=onedark&column=7&no-frame=true&no-bg=true" alt="Trophies" />
 
 <br /><br />
 
@@ -86,5 +87,5 @@ Python, Go and shell utilities that remove manual steps from QA and DevOps.
 ---
 
 <div align="center">
-<sub>No badge spam. No employer logos. If it doesn't fit on one screen, it doesn't belong here.</sub>
+<sub>No badge spam. No employer logos. One screen, or it doesn't ship.</sub>
 </div>
